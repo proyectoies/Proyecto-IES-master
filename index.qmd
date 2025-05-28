@@ -2,8 +2,7 @@
 title: "Hola mundo!"
 ---
 
-
-Serie de fibonacci.
+Serie de fibonaccis
 
 ```{r}
 fib <- function(n) {

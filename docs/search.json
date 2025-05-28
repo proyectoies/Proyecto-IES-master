@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Hola mundo!",
     "section": "",
-    "text": "Serie de fibonacci.\n\nfib &lt;- function(n) {\n  \n  if (n == 1) {\n    \n    return(0)\n  }\n  else if(n == 2) {\n    \n    return(1)\n  }\n  else if(n &gt; 2) {\n    \n    return(fib(n - 1) + fib(n - 2))\n  }\n  \n}\n\n\ns_fib &lt;- function(m) {\n    \n    serie &lt;- vector(\"numeric\", length = m)\n    \n    for (i in 1:m) {\n        \n        serie[i] &lt;- fib(i)\n    }\n\n    return(serie)\n}\n\n# Se aplica la función s_fib para generar 30 elementos de la serie #\n\ns_fib(20)\n\n [1]    0    1    1    2    3    5    8   13   21   34   55   89  144  233  377\n[16]  610  987 1597 2584 4181"
+    "text": "Serie de fibonaccis\n\nfib &lt;- function(n) {\n  \n  if (n == 1) {\n    \n    return(0)\n  }\n  else if(n == 2) {\n    \n    return(1)\n  }\n  else if(n &gt; 2) {\n    \n    return(fib(n - 1) + fib(n - 2))\n  }\n  \n}\n\n\ns_fib &lt;- function(m) {\n    \n    serie &lt;- vector(\"numeric\", length = m)\n    \n    for (i in 1:m) {\n        \n        serie[i] &lt;- fib(i)\n    }\n\n    return(serie)\n}\n\n# Se aplica la función s_fib para generar 30 elementos de la serie #\n\ns_fib(20)\n\n [1]    0    1    1    2    3    5    8   13   21   34   55   89  144  233  377\n[16]  610  987 1597 2584 4181"
   },
   {
     "objectID": "readme.html",
