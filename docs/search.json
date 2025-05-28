@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hola mundo!",
+    "section": "",
+    "text": "Serie de fibonacci.\n\nfib &lt;- function(n) {\n  \n  if (n == 1) {\n    \n    return(0)\n  }\n  else if(n == 2) {\n    \n    return(1)\n  }\n  else if(n &gt; 2) {\n    \n    return(fib(n - 1) + fib(n - 2))\n  }\n  \n}\n\n\ns_fib &lt;- function(m) {\n    \n    serie &lt;- vector(\"numeric\", length = m)\n    \n    for (i in 1:m) {\n        \n        serie[i] &lt;- fib(i)\n    }\n\n    return(serie)\n}\n\n# Se aplica la función s_fib para generar 30 elementos de la serie #\n\ns_fib(20)\n\n [1]    0    1    1    2    3    5    8   13   21   34   55   89  144  233  377\n[16]  610  987 1597 2584 4181"
+  },
+  {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "Sitio web Quarto: tutorial",
+    "section": "",
+    "text": "use_readme()Este es un repositorio de prueba para enseñar a crear sitios web con Quarto.\nEntra a este enlace para leer la guía completa y aprender a crear sitios web gratis usando R y Quarto."
+  },
+  {
+    "objectID": "mas_informacion.html",
+    "href": "mas_informacion.html",
+    "title": "Más información",
+    "section": "",
+    "text": "Somos un grupo de estudiantes de Ingeniería en Estadística: Matias Valenzuela & Josefa Hasbun & Angel Llanos."
+  },
+  {
+    "objectID": "areas.html",
+    "href": "areas.html",
+    "title": "Areas",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "bibliografia.html",
+    "href": "bibliografia.html",
+    "title": "Bibliografía",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "area_1.html",
+    "href": "area_1.html",
+    "title": "Area 1",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "area_2.html",
+    "href": "area_2.html",
+    "title": "Area 2",
+    "section": "",
+    "text": "About this site"
+  }
+]

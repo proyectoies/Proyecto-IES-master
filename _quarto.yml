@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Proyecto IES"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+        
+        
+      - text: "Areas"
+        menu: 
+          - text: "Área 1"
+            href: area_1.qmd
+            
+            
+          - text: "Área 2"
+            href: area_2.qmd
+            
+        
+      - text: "Bibliografía"
+        href: bibliografia.qmd
+        
+        
+      - text: "Mas información"
+        href: mas_informacion.qmd
+        
+        
+      - icon: github
+        href: https://github.com/angellds3
+      - icon: linkedin
+        href: https://www.linkedin.com/in/angel-llanos-b3185a232/
+
+format:
+  html:
+    theme: cosmo
+    # or morph
+    css: styles.css
+    toc: true
+
+editor: visual
+
